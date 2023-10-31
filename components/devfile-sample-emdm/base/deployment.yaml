@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-emdm
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/stonesoup_perfscale/ci1t-43256-0061-tenant/ci1t-43256-0061-app/devfile-sample-emdm@sha256:a9b64b16a64afd9db68d87e93245ed71ecc4352ceb70a6635e0af34a9a226d96
         name: my-nodejs
         ports:
         - containerPort: 3001
